@@ -48,6 +48,13 @@ EEG signals of 25 healthy subjects performing wrist movements, pronation and sup
 
 ![Classification](docs/images/ClassificationMethods.png)
 
+### Model Evaluation
+The model’s performance will be assessed using standard classification metrics,
+including accuracy, precision, recall, F1-score, and Matthews Correlation Coefficient
+(MCC). Additionally, Area Under the ROC Curve (AUC-ROC) will provide insights
+into the model’s discriminative capabilities. Statistical significance tests, such as
+paired t-tests, will be conducted to validate performance improvements.
+
 ## Potential Impact
 
 - Better Neurorehabilitation outcomes: Enables more targeted therapy for patients with motor impairments.
