@@ -22,5 +22,16 @@ Classifying EEG signals for single-joint movements (wrist pronation / supination
 - Evaluate different preprocessing, feature extraction and machine learning approaches.
 - Address inter-subject variability in single-joint MI-based EEG classification.
 
+## Proposed Methodology
+
+The primary objective is to classify MI tasks for single joint movements, focusing on the wrist, with high accuracy to enhance the usability of Brain-Computer Interface(BCI) applications in neurorehabilitation and assistive technology. 
+
+The higher overview of steps involved in classifying MI tasks is shown below. 
+
+![Proposed Approach]
+
+### EEG Data
+EEG signals of 25 healthy subjects performing wrist movements, pronation and supination, are obtained through the publicly available dataset on GigaDB(https://gigadb.org/dataset/100788). 
+
 
 
