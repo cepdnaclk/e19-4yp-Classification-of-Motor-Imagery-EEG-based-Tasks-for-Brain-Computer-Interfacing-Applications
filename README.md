@@ -10,3 +10,15 @@ The accurate classification of MI EEG signals continues to be a crucial challeng
 
 Accordingly, this study focuses on a single-joint, specifically the wrist, based MI task classification. The introduction of a novel model capable of distinguishing distinct wrist movements and investigating model performance across distinct joint movements, is the main aim of this study. Thus, contributing to improved precision in BCI applications.
 
+## Problem Statement
+
+Classifying EEG signals for single-joint movements (wrist pronation / supination) is challenging due to low signal-to-noise ratios and overlapping spatial features. Existing MI-based BCI systems primarily focus on broad limb movements, limiting precision and hindering the development of applications requiring fine motor control, such as prosthetics and neurorehabilitation.
+
+## Objectives
+
+- Develop a robust classification model for wrist pronation/supination MI tasks using EEG data.
+- Evaluate different preprocessing, feature extraction and machine learning approaches.
+- Address inter-subject variability in single-joint MI-based EEG classification.
+
+
+
