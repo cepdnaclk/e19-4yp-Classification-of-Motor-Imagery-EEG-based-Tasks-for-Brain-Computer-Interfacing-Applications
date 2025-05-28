@@ -22,5 +22,29 @@ Classifying EEG signals for single-joint movements (wrist pronation / supination
 - Evaluate different preprocessing, feature extraction and machine learning approaches.
 - Address inter-subject variability in single-joint MI-based EEG classification.
 
+## Proposed Methodology
 
+The primary objective is to classify MI tasks for single joint movements, focusing on the wrist, with high accuracy to enhance the usability of Brain-Computer Interface(BCI) applications in neurorehabilitation and assistive technology. 
+
+The higher overview of steps involved in classifying MI tasks is shown below. 
+
+![Proposed Approach]
+
+### EEG Data
+EEG signals of 25 healthy subjects performing wrist movements, pronation and supination, are obtained through the publicly available dataset on GigaDB(https://gigadb.org/dataset/100788). 
+
+### Data Preprocessing
+- 60 Hz notch filter will be applied to raw EEG data to reduce the effect of external electrical noises such as DC noise of power supply and the scan rate of the monitor. 
+- Band-pass filter will be applied to remove both low-frequency and high-frequency components that are irrelevant to the Motor Imagery (MI) task.
+- Independent Component Analysis(ICA) technique will be applied to remove artifacts such as eye-blinking effects, muscle movement, and other non-neural interferences.
+
+![Preprocessing Techniques](docs/images/Preprocessing.png)
+
+### Feature Extraction
+
+![Feature Extraction](docs/images/FeatureExtraction.png)
+
+### Classification Approaches
+
+![Classification](docs/images/ClassificationMethods.png)
 
