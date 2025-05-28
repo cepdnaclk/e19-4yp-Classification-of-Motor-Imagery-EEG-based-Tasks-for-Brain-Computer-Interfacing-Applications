@@ -28,7 +28,7 @@ The primary objective is to classify MI tasks for single joint movements, focusi
 
 The higher overview of steps involved in classifying MI tasks is shown below. 
 
-![Proposed Approach]
+![Proposed Approach](docs/images/Propossed_Approach.jpg)
 
 ### EEG Data
 EEG signals of 25 healthy subjects performing wrist movements, pronation and supination, are obtained through the publicly available dataset on GigaDB(https://gigadb.org/dataset/100788). 
@@ -48,3 +48,8 @@ EEG signals of 25 healthy subjects performing wrist movements, pronation and sup
 
 ![Classification](docs/images/ClassificationMethods.png)
 
+## Potential Impact
+
+- Better Neurorehabilitation outcomes: Enables more targeted therapy for patients with motor impairments.
+- Enhanced BCI control precision: Improved usability for prosthetic devices and assistive technology.
+- Contribution to future research in fine motor control using single-joint EEG-based studies.
