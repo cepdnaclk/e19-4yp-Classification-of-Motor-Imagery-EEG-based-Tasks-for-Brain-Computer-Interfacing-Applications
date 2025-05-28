@@ -33,5 +33,18 @@ The higher overview of steps involved in classifying MI tasks is shown below.
 ### EEG Data
 EEG signals of 25 healthy subjects performing wrist movements, pronation and supination, are obtained through the publicly available dataset on GigaDB(https://gigadb.org/dataset/100788). 
 
+### Data Preprocessing
+- 60 Hz notch filter will be applied to raw EEG data to reduce the effect of external electrical noises such as DC noise of power supply and the scan rate of the monitor. 
+- Band-pass filter will be applied to remove both low-frequency and high-frequency components that are irrelevant to the Motor Imagery (MI) task.
+- Independent Component Analysis(ICA) technique will be applied to remove artifacts such as eye-blinking effects, muscle movement, and other non-neural interferences.
 
+![Preprocessing Techniques](docs/images/Preprocessing.png)
+
+### Feature Extraction
+
+![Feature Extraction](docs/images/FeatureExtraction.png)
+
+### Classification Approaches
+
+![Classification](docs/images/ClassificationMethods.png)
 
